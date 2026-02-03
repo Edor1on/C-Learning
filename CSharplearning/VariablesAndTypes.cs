@@ -41,6 +41,8 @@ namespace CSharplearning
             user2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Result: " + user1 + "; Result: " + user2);
+
+
         }    
     }
 
