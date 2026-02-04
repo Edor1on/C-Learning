@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using CSharplearning;
 
 namespace CSharplearning
@@ -13,8 +14,14 @@ namespace CSharplearning
             //Console.WriteLine("Тема 2: Математичні операції");
             //new Math_operation();
 
-            Console.WriteLine("Тема 3: Умовні оператори");
-            new Conditional_Statements();
+            //Console.WriteLine("Тема 3: Умовні оператори");
+            //new Conditional_Statements();
+
+            //Console.WriteLine("Тема 4: Switch_case");
+            //new Switch_case();
+
+            Console.WriteLine("Тема 5: Цикли");
+            new Loops();
         }
     }
 };

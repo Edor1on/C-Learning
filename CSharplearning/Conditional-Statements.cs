@@ -44,12 +44,12 @@ namespace CSharplearning
 
             if (user_name == "Admin")
             {
-                Console.WriteLine("Good, your name is {0}", user_name);
+                Console.WriteLine($"Good, your name is {user_name}");
                 Console.WriteLine("Enter your age");
                 short age = Convert.ToInt16(Console.ReadLine());
                 if (age > 0 && age < 120)
                 {
-                    Console.WriteLine("All is correct, your name is {0} and age is {1}", user_name, age);
+                    Console.WriteLine($"All is correct, your name is {user_name} and age is {age}");
                 }
                 else
                 {
