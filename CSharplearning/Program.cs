@@ -20,8 +20,11 @@ namespace CSharplearning
             //Console.WriteLine("Тема 4: Switch_case");
             //new Switch_case();
 
-            Console.WriteLine("Тема 5: Цикли");
-            new Loops();
+            //Console.WriteLine("Тема 5: Цикли");
+            //new Loops();
+
+            Console.WriteLine("Тема 6: Arrays");
+            new Arrays();
         }
     }
 };
