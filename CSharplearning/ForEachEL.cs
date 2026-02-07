@@ -1,12 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharplearning
 {
     internal class ForEachEL
     {
+        public ForEachEL()
+        {
+            short[,] nums = {
+                { 1, 3, 4, 5 },
+                { 6, 7, 8, 9 },
+                { 10, 11, 12, 13 }
+            };
+
+            foreach(short el in nums)
+            {
+                Console.WriteLine("El: " + el);
+            }
+        }
     }
 }

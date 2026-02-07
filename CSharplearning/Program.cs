@@ -23,8 +23,14 @@ namespace CSharplearning
             //Console.WriteLine("Тема 5: Цикли");
             //new Loops();
 
-            Console.WriteLine("Тема 6: Arrays");
-            new Arrays();
+            //Console.WriteLine("Тема 6: Arrays");
+            //new Arrays();
+
+            Console.WriteLine("Тема 7: ForEachEL");
+            new ForEachEL();
+
+            Console.WriteLine("Тема 7: Generics");
+            new Generics();
         }
     }
 };
